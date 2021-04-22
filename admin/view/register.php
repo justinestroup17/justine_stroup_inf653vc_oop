@@ -3,7 +3,7 @@ require_once('../model/admin_db.php');
 require_once('../admin/util/valid_register.php');
 include('header.php');
 // Display errors from $errors array if they exist
-valid_registration($username, $password, $confirm_password);
+ValidRegister::valid_registration($username, $password, $confirm_password);
 ?>
 <form action="." method="POST" class="register_form">
     <input type="hidden" name="action" value="register">
