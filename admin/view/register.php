@@ -12,8 +12,8 @@ ValidRegister::valid_registration($username, $password, $confirm_password);
     <label for="password">Password:</label>
     <input type="password" id="password" name="password" maxlength="50" required>
     <label for="confirm_password">Confirm password:</label>
-    <input type="text" id="confirm_password" name="confirm_password" maxlength="50" required>
-    <input type="password" value="Register" class="button blue">
+    <input type="password" id="confirm_password" name="confirm_password" maxlength="50" required>
+    <input type="submit" value="Register" class="button blue">
 </form>
 <?php
 include('footer.php');
