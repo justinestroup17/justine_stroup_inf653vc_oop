@@ -19,7 +19,7 @@ if(isset($login_message)) {
     <label for="username">Username: </label>
     <input type="text" id="username" name="username" maxlength="50" required><br>
     <label for="password">Password:</label>
-    <input type="text" id="password" name="password" maxlength="50" required><br>
+    <input type="password" id="password" name="password" maxlength="50" required><br>
     <input type="submit" value="Login" class="button blue">
 </form>   
 </body>
